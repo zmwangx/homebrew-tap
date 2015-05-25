@@ -2,8 +2,8 @@
 # executable is named trans anyway.
 class Trans < Formula
   homepage "http://www.soimort.org/translate-shell"
-  url "https://github.com/soimort/translate-shell/archive/v0.8.24.tar.gz"
-  sha256 "e83d890051f7f3866d81eed9884d7ffa6592c40e80de805bc8c63e9ea36a9161"
+  url "https://github.com/soimort/translate-shell/archive/v0.9.0.3.tar.gz"
+  sha256 "b5d9d5435531e83d011dadab3ef044145c04b1e874539630005ed06f440ec289"
 
   head "https://github.com/soimort/translate-shell.git", :branch => "develop"
 
