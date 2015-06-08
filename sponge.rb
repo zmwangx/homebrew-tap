@@ -4,9 +4,7 @@
 # hell every time parallel is upgraded.
 class Sponge < Formula
   homepage "http://joeyh.name/code/moreutils/"
-  url "https://mirrors.kernel.org/debian/pool/main/m/moreutils/moreutils_0.55.orig.tar.gz"
-  mirror "http://ftp.us.debian.org/debian/pool/main/m/moreutils/moreutils_0.55.orig.tar.gz"
-  sha256 "da9d5cd145ceea967a65dd50031d168d66199c3eb41b9390b57f35d4a5808ab5"
+  url "git://git.kitenet.net/moreutils", :tag => "0.56"
 
   depends_on "docbook-xsl" => :build
 
