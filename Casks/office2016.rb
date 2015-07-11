@@ -12,8 +12,11 @@ cask :v1 => 'office2016' do
   # uninstall and zap stanzas copied from
   # https://github.com/caskroom/homebrew-cask/blob/44ff9373decdb2754c03046695e84546cde067a4/Casks/microsoft-office.rb
   # may not be accurate
-  uninstall :pkgutil   => 'com.microsoft.office.*',
-            :launchctl => 'com.microsoft.office.licensing.helper'
+  uninstall :pkgutil   => [
+                           'com.microsoft.package.*',
+                           'com.microsoft.pkg.licensing'
+                          ],
+            :launchctl => 'com.microsoft.office.licensingV2.helper'
   zap       :pkgutil   => [
                            'com.microsoft.mau.all.autoupdate.*',
                            'com.microsoft.merp.all.errorreporting.*'
