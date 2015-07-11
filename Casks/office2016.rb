@@ -16,7 +16,14 @@ cask :v1 => 'office2016' do
                            'com.microsoft.package.*',
                            'com.microsoft.pkg.licensing'
                           ],
-            :launchctl => 'com.microsoft.office.licensingV2.helper'
+            :launchctl => 'com.microsoft.office.licensingV2.helper',
+            :delete    => [
+                           '/Applications/Microsoft Excel.app',
+                           '/Applications/Microsoft OneNote.app',
+                           '/Applications/Microsoft Outlook.app',
+                           '/Applications/Microsoft PowerPoint.app',
+                           '/Applications/Microsoft Word.app'
+                          ]
   zap       :pkgutil   => [
                            'com.microsoft.mau.all.autoupdate.*',
                            'com.microsoft.merp.all.errorreporting.*'
