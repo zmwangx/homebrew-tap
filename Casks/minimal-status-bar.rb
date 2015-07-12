@@ -9,6 +9,8 @@ cask :v1 => 'minimal-status-bar' do
 
   container :type => :naked
 
+  stage_only true
+
   postflight do
     system "open", File.join(staged_path, "Minimal-Status-Bar-#{version}.safariextz")
   end
