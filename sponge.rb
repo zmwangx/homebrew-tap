@@ -4,7 +4,7 @@
 # hell every time parallel is upgraded.
 class Sponge < Formula
   homepage "http://joeyh.name/code/moreutils/"
-  url "git://git.kitenet.net/moreutils", :tag => "0.56"
+  url "git://git.kitenet.net/moreutils", :tag => "0.57"
 
   depends_on "docbook-xsl" => :build
 
