@@ -1,6 +1,6 @@
 cask :v1 => 'minimal-status-bar' do
-  version '1.17'
-  sha256 '345cc1eb986dd94d8025c09c448a7603bbbdce64b1d376a7ebfc4baff9fb6811'
+  version '1.18'
+  sha256 'b8bdfdfcb2dbf47acc8630eed44dc13ff311c49f73584dfe8223a114b1248c3a'
 
   url "https://github.com/visnup/Minimal-Status-Bar/releases/download/v#{version}/Minimal-Status-Bar-#{version}.safariextz"
   name 'Minimal Status Bar'
