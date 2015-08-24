@@ -3,12 +3,10 @@ class Tccutil < Formula
   homepage "https://github.com/jacobsalmela/tccutil"
   url "https://github.com/jacobsalmela/tccutil/archive/v1.0.tar.gz"
   sha256 "cdbe9bd2caf8cc73bd62a1da2e1853ed6634f8e952529eb633e89f906bbec2ce"
-
-  depends_on "coreutils"
+  revision 1
 
   def install
-    system "mkdir", "#{prefix}/bin"
-    system "ginstall", "--target-directory=#{prefix}/bin", "tccutil.py"
+    bin.install "tccutil.py"
   end
 
   test do
