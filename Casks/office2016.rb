@@ -1,4 +1,4 @@
-cask :v1 => 'office2016' do
+cask 'office2016' do
   version :latest
   sha256 :no_check
 

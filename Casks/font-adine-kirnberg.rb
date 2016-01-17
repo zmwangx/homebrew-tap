@@ -1,4 +1,4 @@
-cask :v1 => 'font-adine-kirnberg' do
+cask 'font-adine-kirnberg' do
   version '2.12'
   sha256 '0d464b34e2dc71d7076b0eb5c0f3e6a242f67d0e6a235ae1c5e8d7c50c03add1'
 
