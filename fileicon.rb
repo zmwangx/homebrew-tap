@@ -1,8 +1,8 @@
 class Fileicon < Formula
   desc "CLI for managing custom icons for files and folders"
   homepage "https://github.com/mklement0/fileicon"
-  url "https://github.com/mklement0/fileicon/archive/v0.1.6.tar.gz"
-  sha256 "c664c3ebe64226f2be4f6f69ee2270841de6a9f94edc64790ccdc448ae40ebc8"
+  url "https://github.com/mklement0/fileicon/archive/v0.1.8.tar.gz"
+  sha256 "01bb1409e054b09721a022255a6ba985292f64575620aa108537a26e1299c774"
   head "https://github.com/zmwangx/fileicon.git"
 
   def install
