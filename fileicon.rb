@@ -5,6 +5,8 @@ class Fileicon < Formula
   sha256 "01bb1409e054b09721a022255a6ba985292f64575620aa108537a26e1299c774"
   head "https://github.com/zmwangx/fileicon.git"
 
+  depends_on "osxutils-seticon" if build.head?
+
   def install
     bin.install "bin/fileicon"
     man1.install "man/fileicon.1"
