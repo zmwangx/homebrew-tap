@@ -4,8 +4,8 @@ class Zmwangxsay < Formula
   desc "Fork of MrMsay for @zmwangx"
   homepage "https://github.com/zmwangx/gharchive/tree/master/.scripts/say"
   url "https://github.com/zmwangx/gharchive.git",
-      :tag => "v0.3.5",
-      :revision => "df89c8a326cef8d554da53a505b1017070339973"
+      :tag => "v0.3.6",
+      :revision => "2a35466a01060bff6aa08daf3da656e60c86adcf"
 
   depends_on "cowsay" => :run
   depends_on :python3
