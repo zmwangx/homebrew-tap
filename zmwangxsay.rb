@@ -3,9 +3,13 @@ class Zmwangxsay < Formula
 
   desc "Fork of MrMsay for @zmwangx"
   homepage "https://github.com/zmwangx/gharchive/tree/master/.scripts/say"
-  url "https://github.com/zmwangx/gharchive.git",
-      :tag => "v0.4.0",
-      :revision => "62ebf82b2e1b55e80e91875fcc7bc947b3849547"
+  url "https://github.com/zmwangx/gharchive/archive/v0.4.1.tar.gz"
+  sha256 "55d516c48699d8500825fa448c1a6101e37f5bdef11bc3ac8a24a2aba5a4ea78"
+
+  bottle do
+    root_url "https://dl.bintray.com/zmwangx/bottles"
+    sha256 "c1a26d008bf630f0e1ecbc8eeb1202d0c4f1f519373f0f3727e66d4c3b0831e4" => :sierra
+  end
 
   depends_on "cowsay" => :run
   depends_on :python3
