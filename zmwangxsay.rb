@@ -3,8 +3,8 @@ class Zmwangxsay < Formula
 
   desc "Fork of MrMsay for @zmwangx"
   homepage "https://github.com/zmwangx/gharchive/tree/master/.scripts/say"
-  url "https://github.com/zmwangx/gharchive/archive/v0.4.1.tar.gz"
-  sha256 "55d516c48699d8500825fa448c1a6101e37f5bdef11bc3ac8a24a2aba5a4ea78"
+  url "https://github.com/zmwangx/gharchive/archive/v0.5.0.tar.gz"
+  sha256 "17eb57f569ac6e7962a93197b97c222fa13a6375d4e44f1963f9b4940c118946"
 
   bottle do
     root_url "https://dl.bintray.com/zmwangx/bottles"
