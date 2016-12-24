@@ -8,7 +8,7 @@ class Zmwangxsay < Formula
 
   bottle do
     root_url "https://dl.bintray.com/zmwangx/bottles"
-    sha256 "3b89b42c3814f9e94dcb22a43fb946eb1efaa1629336a342f5c186f5e6e7142c" => :sierra
+    sha256 "7982bcf946f77c088f8ce095985c215861ddadfa7a543e6325159a5fdad2aeae" => :sierra
   end
 
   depends_on "cowsay" => :run
