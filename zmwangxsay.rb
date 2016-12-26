@@ -5,6 +5,7 @@ class Zmwangxsay < Formula
   homepage "https://github.com/zmwangx/gharchive/tree/master/.scripts/say"
   url "https://github.com/zmwangx/gharchive/archive/v0.6.0.tar.gz"
   sha256 "0d2ef0252e2296b576b2054e63eb8772f6a0f5a1077319139d50e43fbc81708a"
+  revision 1
 
   bottle do
     root_url "https://dl.bintray.com/zmwangx/bottles"
