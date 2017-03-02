@@ -3,7 +3,8 @@ class Zmwangxsay < Formula
 
   desc "Fork of MrMsay for @zmwangx"
   homepage "https://github.com/zmwangx/gharchive/tree/master/.scripts/say"
-  url "https://github.com/zmwangx/gharchive/archive/v0.6.0.tar.gz"
+  url "https://github.com/zmwangx/gharchive/archive/v0.6.0.tar.gz",
+      :using => GitHubPrivateRepositoryDownloadStrategy
   sha256 "0d2ef0252e2296b576b2054e63eb8772f6a0f5a1077319139d50e43fbc81708a"
   revision 1
 
