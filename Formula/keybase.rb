@@ -1,8 +1,8 @@
 class Keybase < Formula
   desc "Command-line interface to Keybase.io"
   homepage "https://keybase.io/"
-  url "https://github.com/keybase/client/archive/v1.0.21.tar.gz"
-  sha256 "a9bbaf16cb7b7cc3614ca5e76e0fb1b3bd164f38e14b9d49d4ca351941c8c0a3"
+  url "https://github.com/keybase/client/archive/v1.0.22.tar.gz"
+  sha256 "202a56ea6d25b0f0de2e7529839eb62266ad1665297483cef4948678c95c12f9"
   head "https://github.com/keybase/client.git"
 
   depends_on "go" => :build
