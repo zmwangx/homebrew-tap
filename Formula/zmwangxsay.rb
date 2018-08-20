@@ -13,8 +13,8 @@ class Zmwangxsay < Formula
     sha256 "da6b6639507b0db61d114b8cbc639dce95654ea821e35bff2f38e9bddf687ff9" => :sierra
   end
 
-  depends_on "cowsay" => :run
-  depends_on :python3
+  depends_on "cowsay"
+  depends_on "python3"
 
   def install
     package_path = buildpath/".scripts/say"

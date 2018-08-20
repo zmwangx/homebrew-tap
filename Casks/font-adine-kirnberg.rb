@@ -4,7 +4,6 @@ cask 'font-adine-kirnberg' do
 
   url 'https://dl.bintray.com/zmwangx/generic/adine-kirnberg.zip'
   homepage 'http://www.1001fonts.com/adine-kirnberg-font.html'
-  license :gratis
 
   font 'adine-kirnberg.alternate.ttf'
   font 'adine-kirnberg.regular.ttf'

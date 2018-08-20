@@ -6,7 +6,6 @@ cask 'ffdec' do
   url "https://www.free-decompiler.com/flash/download/ffdec_#{version}_macosx.zip"
   name 'JPEXS Free Flash Decompiler'
   homepage 'https://www.free-decompiler.com/flash/'
-  license :gpl
 
   app 'FFDec.app'
 end

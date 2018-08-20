@@ -5,7 +5,6 @@ cask 'office2016' do
   url 'http://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/Microsoft_Office_2016_Installer.pkg'
   name 'Office for Mac 2016'
   homepage 'https://products.office.com/en-US/mac/microsoft-office-for-mac'
-  license :commercial
 
   pkg 'Microsoft_Office_2016_Installer.pkg'
 
